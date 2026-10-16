@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+
+# Competition data (large, and not for sharing)
+train/
+test/
+
+# Trained models and training output (large)
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+runs/
+logs/
+lightning_logs/
+wandb/
+
+# Generated files
+submission.csv
